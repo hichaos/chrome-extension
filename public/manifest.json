@@ -1,0 +1,29 @@
+{
+  "name": "CHROME-PLUGIN",
+  "short_name": "CHROME-PLUGIN",
+  "description": "description",
+  "version": "1.0.0",
+  "manifest_version": 2,
+   // "chrome_url_overrides" : {
+   //   "newtab": "index.html"
+   // },
+  "browser_action": {
+    "default_icon": "img/A.png"/*,
+    "default_popup": "index.html"*/
+  },
+  "background":
+  {
+    // "page": "index.html"
+    "scripts": ["js/background.js"]
+  },
+  "icons": {
+    "128": "img/A.png"
+  },
+  "permissions": [
+    "storage",
+    "notifications",
+    "tabs",
+    "windows",
+    "<all_urls>"
+  ]
+}

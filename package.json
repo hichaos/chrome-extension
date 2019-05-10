@@ -1,0 +1,27 @@
+{
+  "name": "CHROME-PLUGIN",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.10.9",
+    "axios": "^0.18.0",
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1",
+    "rc-animate": "^2.6.0",
+    "rc-banner-anim": "^2.1.2",
+    "rc-queue-anim": "^1.6.8",
+    "rc-tween-one": "^2.2.19",
+    "react": "^15.6.2",
+    "react-addons-shallow-compare": "^15.6.0",
+    "react-beautiful-dnd": "^2.1.0",
+    "react-desktop-notification": "^1.0.9",
+    "react-dom": "^15.6.2",
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

@@ -1,0 +1,23 @@
+.icon-toggle-debug {
+	padding: 5px;
+}
+
+.icon-toggle-debug:hover {
+	color: #1890ff;
+	cursor: pointer;
+}
+
+.div-debug {
+	width: 350px;
+}
+
+@media (min-width: 1500px) {
+  .div-debug {
+	width: 400px;
+  }
+}
+
+.div-debug-close {
+	min-width: 75px;
+	width: 75px;
+}
